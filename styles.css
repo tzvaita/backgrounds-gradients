@@ -1,3 +1,190 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-area {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    bottom: 130px;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+}
+
+.footer-container {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: -165px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    height: 90px;
+    color: #6e6e6e;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 8px 30px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #707070;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.links a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.inline-text a {
+    text-decoration: none;
+    color: #08c;
+}
+
+.nav-list a:hover {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+.apple-log img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+.global-nav {
+    position: absolute;
+    top: 85px;
+    left: 13%;
+    width: 932px;
+    height: 36px;
+    display: inline-flex;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    background-image: linear-gradient(to bottom, rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
+}
+
+.search-box {
+    border-width: 0 2px 0 1px;
+}
+
+.text {
+    width: 100%;
+    margin-top: -115px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+}
+
+.first {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.third {
+    margin: 15px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.img-sections {
+    width: 100%;
+    display: inline-flex;
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    bottom: -75px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.img-containers {
+    width: 25%;
+    height: 200px;
+}
+
+.left {
+    float: left;
+    width: 48%;
+    padding-top: 1.5em;
+    text-align: left;
+    font-size: 0.7334em;
+    line-height: 1.2;
+}
+
+.right {
+    float: right;
+    width: 52%;
+    padding-top: 1.5em;
+    text-align: left;
+    font-size: 0.7334em;
+    line-height: 1.2;
+}
+
+.clear {
+    clear: both;
+    display: inline-flex;
+    width: 49%;
+    padding-top: 1.5em;
+    text-align: left;
+    font-size: 0.7334em;
+    line-height: 1.2;
+}
+
+.links li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 0.6em;
+    padding-left: 0.6em;
+    border-left: 1px solid #ccc;
+}
+
+.items img {
+    width: 13px;
+    height: 13px;
+}
+
+#search {
+    margin: 7px auto 0;
+    border-radius: 10px;
+    width: 118px;
+    background: #808080;
+    background-image: url(images/search-flat-white-color-icon-vector-6077740.jpg);
+    background-repeat: no-repeat;
+    background-size: 15px;
 }
