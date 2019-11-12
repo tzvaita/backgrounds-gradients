@@ -54,7 +54,6 @@
     color: white;
     text-align: center;
     padding: 8px 30px;
-    text-decoration: none;
     border-width: 0 1px 0 0;
     border-style: solid;
     border-color: #707070;
@@ -62,9 +61,18 @@
     font-size: 15px;
 }
 
-.nav-list a:hover {
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+.links a {
+    color: #08c;
+    text-decoration: none;
+}
 
+.inline-text a {
+    text-decoration: none;
+    color: #08c;
+}
+
+.nav-list a:hover {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 .apple-log img {
@@ -82,7 +90,7 @@
     display: inline-flex;
     border-radius: 4px;
     box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-    background-image: linear-gradient(to bottom, rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
+    background-image: linear-gradient(to bottom,rgb(100, 100, 100) 50%,rgb(124, 124, 124) 50%);
 }
 
 .search-box {
@@ -161,19 +169,9 @@
 .links li {
     display: inline;
     text-decoration: none;
-    margin-left: .6em;
-    padding-left: .6em;
+    margin-left: 0.6em;
+    padding-left: 0.6em;
     border-left: 1px solid #ccc;
-}
-
-.links a {
-    color: #08c;
-    text-decoration: none;
-}
-
-.inline-text a {
-    text-decoration: none;
-    color: #08c;
 }
 
 .items img {
