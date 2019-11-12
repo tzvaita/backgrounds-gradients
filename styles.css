@@ -67,6 +67,12 @@
 
 }
 
+.apple-log img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
 .global-nav {
     position: absolute;
     top: 85px;
@@ -103,7 +109,8 @@
 }
 
 .third {
-    margin: 0 auto;
+    margin: 15px auto;
+    padding: 5px;
     text-align: center;
 }
 
@@ -174,49 +181,12 @@
     height: 13px;
 }
 
-/* testing bar */
-
-.ghj {
-    width: 980px;
-    height: 36px;
-    display: inline-flex;
-    border-radius: 4px;
-    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-    background-image: linear-gradient(to bottom, rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
-}
-
-.navig {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navig li {
-    display: inline;
-}
-
-.navig a {
-    text-decoration: none;
-    color: white;
-  text-align: center;
-  padding: 8px 30px;
-  text-decoration: none;
-  border-width: 0 1px 0 0;
-    border-style: solid;
-    border-color: #707070;
-    overflow: hidden;
-}
-
-.navig a:hover {
-      background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-
-    /* background-image: linear-gradient(to bottom, #444 50%, #494949); */
-}
-
 #search {
     margin: 7px auto 0;
     border-radius: 10px;
     width: 118px;
     background: #808080;
-    /* background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080)); */
+    background-image: url(images/search-flat-white-color-icon-vector-6077740.jpg);
+    background-repeat: no-repeat;
+    background-size: 15px;
 }
